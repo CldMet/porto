@@ -1,0 +1,142 @@
+html {
+    font-size: 16px;
+    margin: 0;
+    scroll-padding-top: 4.5rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: antiquewhite;
+    margin: 0;
+    padding-top: 4.5rem;
+}
+
+/* header */
+
+header {
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+  top: 0;
+  justify-content: space-evenly;
+  background-color: antiquewhite;
+  width: 100%;
+  z-index: 10;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-flex;
+  margin: 0;
+  padding: 1rem;
+}
+
+nav a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+h2 {
+    padding-left: 1rem;
+}
+
+.about {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.aboutCard {
+    display: flex;
+    justify-content: center;
+}
+
+.about p {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    width: 40%;
+}
+
+.hi {
+    display: flex;
+    flex-flow: column;
+}
+
+.about .hi p {
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.skillList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+    
+}
+
+.skillList li {
+    padding: 0.1rem;
+    border-radius: 5px;
+    background-color: powderblue;
+    text-align: center;
+}
+
+.skillList li:hover {
+    transform: translateY(-2px);
+    background-color: royalblue;
+}
+
+.skillScroller {
+    overflow: hidden;
+    white-space: nowrap;
+    mask-image: linear-gradient(
+        to right, 
+        transparent 3%, 
+        black 25%, 
+        black 75%, 
+        transparent 97%
+        );
+}
+
+.skillImages {
+    display: inline-flex;
+    will-change: transform;
+    padding-inline-start: 0;
+}
+
+.skillImages li {
+    flex: 0 0 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
