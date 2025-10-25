@@ -61,6 +61,8 @@ h2 {
     padding-left: 1rem;
 }
 
+/* about */
+
 .about {
     display: flex;
     flex-flow: column;
@@ -89,6 +91,8 @@ h2 {
     padding: 0 2rem;
     width: 100%;
 }
+
+/* skills */
 
 .skillList {
     display: grid;
@@ -140,3 +144,65 @@ h2 {
     justify-content: center;
 }
 
+/* projects */
+
+.projects {
+    display: flex;
+    flex-flow: column;
+}
+
+.projectCardContainer {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projectCard {
+    display: inline;
+    width: 40rem;
+    padding: 1.5rem;
+}
+
+.projectCard img {
+    display: flex;
+    width: 100%;
+}
+
+.projectCard p {
+    display: flex;
+    padding: 1rem;
+}
+
+/* contacts */
+
+.contact {
+    display:  flex;
+    padding: 1rem;
+    flex-flow: column;
+    width: 50rem;
+    justify-self: center;
+}
+
+.contactList {
+    display: flex;
+    justify-content: center;
+}
+
+.contactCard {
+    display: flex;
+    flex-flow: column;
+    padding: 2rem;
+    justify-content: center;
+}
+
+.contactCard p {
+    text-align: center;
+}
+
+/* footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+}
